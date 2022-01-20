@@ -1,3 +1,11 @@
+# ติดตั้ง express,ejs
+```sh
+$ npm install
+หรือไม่ก็
+$ npm install express ejs
+$ node index.js
+```
+
 # node-js-getting-started
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
