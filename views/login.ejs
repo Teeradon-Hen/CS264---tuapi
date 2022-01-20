@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Log in</title>
+<head>
+<style>
+body {
+  background-image: url('image/tu-park-152.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.Header{
+    background-color: #ffb366  ;
+    height:120px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    
+}
+.logo-pos{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+   
+}
+.login-form{
+    border: 5px outset rgb(102, 97, 92);
+    width: 35%;
+    height: 250px;
+    background-color:rgb(215, 228, 233);
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-pos{
+  padding-top: 180px;
+}
+.sub{
+  width:  30%;
+  height: 40px;
+  background-color: #535b53;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.warning{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(240, 54, 113);
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+ 
+}
+</style>
+</head>
+<body >
+
+  <div class="container" >
+    <div class = "Header" >    
+      <div class = "logo-pos" >
+        <img src = 'image/tu-logo.PNG' width= "70%" height="70%" > 
+      </div>  
+    </div>
+    <center>
+     
+   
+    <div class = 'login-pos' >
+      <h1 class = 'warning'> <%=  warnn %>   </h1>
+      <form name = 'data' class="login-form" action="/auth" method = "POST">
+
+        <h1 style = "color : #4d4d4d  ">Log in</h1>
+
+
+
+         <div class="container">
+           <label style = "color : #4d4d4d "for="uname" ><b>Student ID : </b></label>
+           <input style = " height: 25px" type="text" placeholder="Enter Student ID" name="stuID" required><br><br>
+           <label style = "color : #4d4d4d"  for="psw" ><b>Password : </b></label>
+           <input style = " height: 25px" type="password" placeholder="Enter Password" name="pass" required><br><br>
+           <button class = 'sub' type="submit" >Login</button>
+
+          </div>
+
+      </form>
+ 
+
+    </div>
+</center>
+</body>
+</html>

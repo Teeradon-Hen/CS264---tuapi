@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<title> Log in</title>
+<head>
+<style>
+.Header{
+    background-color:black;
+    height:65px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    
+}
+.h1{
+    position: absolute;
+    left: 10px;
+    top:0 px;
+   
+}
+.myDiv{
+    position: absolute; 
+    left: 42%;
+    top: 60%; 
+    margin-left: -250px; 
+    margin-top: -250px; 
+    border: 5px outset rgb(255, 115, 0);
+    width: 50%;
+    background-color:lightblue;
+    text-align:center;
+}
+.myDiv1{
+  margin: 5% auto 15% auto; 
+}
+.login {
+            background:  #0c0f38;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding-bottom: 90px;
+        }
+.forget{
+  background-color:#ffc000;
+  height:23px;
+}
+.loginn{
+    left: 42%;
+    top: 60%; 
+    margin-left: -250px; 
+    margin-top: -250px;
+}
+</style>
+</head>
+<body class = "login">
+  <div class="container" >
+    <div class = "Header" >    
+      <div class = "h1" >
+        <h1 style="color : whitesmoke">Group5 CS264 </h1> 
+      </div>  
+    </div>
+    <div class="loginn">
+      
+      
+    </div>
+    <center>
+     
+   
+
+  <form class="myDiv" action="/action_page.php" method="post">
+  <P></P>
+  <h1 style = "color : red ">Log in</h1>
+
+    <div class="container">
+      <label for="uname"><b>Student ID : </b></label>
+      <input type="text" placeholder="Enter Student ID" name="stuId" required><br><br>
+
+      <label for="psw"><b>Password : </b></label>
+      <input type="password" placeholder="Enter Password" name="pass" required><br><br>
+        
+      <button type="submit">Login</button>
+      
+    </div>
+    <p></p>
+    <div class="forget">
+      <P></P>
+      <span class="psw">ลิมรหัสหรอ <a href="http://nav.cx/hsDsO2I">คลิ้กตรงนี้สิ</a></span>
+      <P></P>
+    </div>
+  </form>
+  
+</center>
+</body>
+</html>
