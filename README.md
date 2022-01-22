@@ -1,4 +1,4 @@
-# ไฟล์ที่เชื่อม API อยู่ใน index.js
+# ที่เชื่อม API อยู่ในไฟล์ index.js
 ## ดึง API ใน Python
 
 https://colab.research.google.com/drive/1Gb0Lz6i9QPTXnV_LMLgw7zgGQARw6ezc?usp=sharing
