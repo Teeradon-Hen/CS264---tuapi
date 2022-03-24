@@ -49,7 +49,7 @@ app.post('/auth', function (req, respond) {
         'path': '/api/v1/auth/Ad/verify',
         'headers': {
             'Content-Type': 'application/json',
-            'Application-Key': 'TUc038d055adcc6fcc2717c458eb10b427da293391b5a1f633a87a9699e57f919c97572cb365827845a28540a289978a04'
+            'Application-Key': ''
         }
     };
   //  console.log(stuID+pass)
